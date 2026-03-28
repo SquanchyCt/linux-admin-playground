@@ -1,10 +1,10 @@
 ### Среда
-Docker Engine\n
+Docker Engine  
 Ubuntu Server
 
 ### Начало
 
-Запускаем команду:
+Запускаем команду:  
 docker run -dit --name UbuntuServer ubuntu:24.04 - запуск контейнера с образом ubuntu:24.04  
 docker exec -it UbuntuServer bash - открытие контейнера в интерактивном терминале c bash консолью
 
